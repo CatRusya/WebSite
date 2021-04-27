@@ -1,0 +1,125 @@
+.slider{
+    max-width: 920px;
+    position: relative;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:#a7c353;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 50%;
+    border: solid #a7c353; 
+}
+.slider .prev {
+    left: 0;
+    width: 48px;
+    height: 48px;
+    margin-left: 12px;
+    border-radius: 50%;
+    border: solid #a7c353; 
+}
+/* Фон кнопок вперед и назад при наведении */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* надпись */
+.slideText {
+    width: 350px;
+    height: 40px;
+    background-color: #a7c353;
+    position: absolute;
+    color: #ffffff;
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: 400;
+    line-height: 30.8px;
+    text-align: center;
+    /* Выравнивание текста горизонтально и по вертикально*/
+    left: 70%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+.slideText1 {
+    width: 350px;
+    height: 68px;
+    background-color: #ffffff;
+    position: absolute;
+    color: #999999;
+    font-size: 13px;
+    padding: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: left;
+    /* Выравнивание текста горизонтально и по вертикально*/
+    left: 70%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+/* Кружочки под слайдами */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 15px;
+    width: 16px;
+    margin-top: 20px;
+    background-color: #a7c353;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    width: 16px;
+    height:  15px;
+    background-color: #ffffff;
+    border: solid #a7c353; 
+    border-radius: 50%;
+    border-width: 3px; 
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+ 

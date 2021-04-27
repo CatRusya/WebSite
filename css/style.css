@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f7fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    text-align:center;
+}
+
+.global-container{
+    display: block;
+    width: 1000px;   
+    height: 1605px;
+    background-color: #313131;
+    margin: 0 auto;
+    font-family: Georgia;
+}
+
+.wrapper {
+    width: 960px;   
+    height: 1172px;
+    background-color: #ffffff;
+    margin: auto;
+}
+

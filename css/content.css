@@ -1,0 +1,120 @@
+h1{
+    margin-left: 106px;
+    margin-right: 106px;
+    margin-top: 43px;
+    color: #666666;
+    font-style: italic;
+    line-height: 30.8px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.bottom-border2 {
+    margin-top: 40px;
+    height: 1px;
+    width: 920px;
+    background-color: #e2e2e2;
+    margin-left: 20px;
+}
+.main-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #666666;
+}
+.column-title-info{
+    margin-top: 40px;
+    height: 18px;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+.pic1{
+    width: 280px;
+    height: 150px;
+    background-color: #ffffff;
+    margin-top: 29px;
+    border: solid#e2e2e2;
+    border-width: 1px;
+}
+.column1{
+    text-align: left;
+    margin-right: 44px;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #999999;
+    line-height: 18.2px;
+    letter-spacing: normal;
+}
+.column-scr1{
+    font-size: 13px;
+    margin-left: 143px;
+    margin-top: 12px; 
+}
+.content-column2{
+    margin-top: 20px;
+    background: url('../img/pic.png') no-repeat 0 0;
+    padding-left: 82px;
+}
+.column2{
+    margin-top: 29px;  
+}
+.title-column2{
+    width: 92px;
+    height: 11px;
+    color: #878787;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 16.8px;
+}
+.text-column2{
+    text-align: left;
+    margin-top: 13px;
+    width: 187px;
+    height: 47px;
+    color: #868686;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+.column-scr2{
+    font-size: 13px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 14px;
+    line-height: 13px;
+}
+.content-column3{
+    margin-top: 15px;
+    width: 53px;
+    height: 44px;
+    background: url('../img/composite_path.png') no-repeat 0 0;
+    padding-left: 64px;
+    }
+.title-column3{
+    width: 169px;
+    height: 15px;
+    padding-top: 15px;
+    color: #989898;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+.text-column3{
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: normal;
+    margin-right: 42px;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+.column-scr3{
+    font-size: 13px;
+    margin-left: 163px;
+    margin-right: 20px;
+}
